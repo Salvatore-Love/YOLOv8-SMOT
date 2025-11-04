@@ -17,7 +17,15 @@ SMOT4SB
 
 ## Quick Start
 
-This section provides instructions on how to run inference using the [`tools/predict.py`](tools/predict.py:0) script. This repository is focused exclusively on inference.
+This section provides instructions on how to run inference using the [`tools/predict.py`](tools/predict.py) script. This repository is focused exclusively on inference.
+
+### Clone the Repository
+To properly clone this repository, use the following command:
+
+```
+git clone https://github.com/Salvatore-Love/YOLOv8-SMOT.git
+cd YOLOv8-SMOT
+```
 
 ### 1. Environment Setup
 
@@ -46,7 +54,7 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --e
 
 **Step 3: Install MMYOLO and its Dependencies (Following `mmyolo/README_Ours.md`)**
 
-To ensure MMYOLO is installed correctly for this project, we will follow the installation steps similar to those outlined in [`mmyolo/README_Ours.md`](mmyolo/README_Ours.md:0). This involves installing `openmim` and then using it to install MMYOLO and its specific dependencies.
+To ensure MMYOLO is installed correctly for this project, we will follow the installation steps similar to those outlined in mmyolo. This involves installing `openmim` and then using it to install MMYOLO and its specific dependencies.
 
 1.  **Install `openmim`:**
     `openmim` is the official package manager for OpenMMLab projects.
